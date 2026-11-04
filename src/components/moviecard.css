@@ -1,0 +1,26 @@
+
+.cardtitle{
+   color: white;
+  font-size: 25px;
+  display: flex;
+  font-family:'releway' , sans-serif;
+}
+
+.header1{
+   display: flex;
+   gap: 12px;
+   width: 100%;
+}
+
+.header1 img{
+   gap: 30px;
+   width: 150px;
+   display: flex;
+   background-color: black;
+   margin-bottom: 30px;
+   border-radius: 10px;
+}
+.header1 img:hover{
+   transform: scale(1.1);
+   transition: transform 0.3s cubic-bezier(0.36, 1.56, 0.64, 1);
+}

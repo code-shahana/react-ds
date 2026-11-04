@@ -5,7 +5,8 @@ import tvIcon from "../assets/television-simple.svg";
 import trendIcon from "../assets/trend-up.svg";
 import plusIcon from "../assets/plus.svg";
 import shuffleIcon from "../assets/shuffle.svg";
-import leoImage from "../assets/leo.jpg";
+import leoImage from "../assets/leo-title.png";
+import MovieCard from "../components/MovieCard";
 import "./home.css";
 
 function Home() {
@@ -23,15 +24,21 @@ function Home() {
       <div className="main">
         <div className="hero">
           <img src={leoImage} alt="leo" />
-          <p>rating : 10/10</p>
-          <p>2m streams</p>
+          <p>IMDB : 0.10/10</p>
+          <p>2B+ streams</p>
           <div className="h-button">
             <button className="b1">Play</button>
             <button className="b2">watch trailer</button>
+            
           </div>
+
         </div>
+        <MovieCard/>
+        
       </div>
+      
     </div>
+
   )
 }
 
