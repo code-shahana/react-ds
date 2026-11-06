@@ -33,7 +33,7 @@ function Home() {
           </div>
 
         </div>
-        <MovieCard/>
+        <MovieCard mtitle="New this Week"/>
         
       </div>
       

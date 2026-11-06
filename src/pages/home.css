@@ -52,7 +52,7 @@
 }
 .sidebar :hover{
     cursor: pointer;
-    background-color: blue;
+    background-color: #eb0808;
 }
 
 .b1{
@@ -62,12 +62,14 @@
     
 }
 .b1:hover{
+    cursor: pointer;
     transform: scale(1.1);
     transition: transform 0.3s cubic-bezier(0.36, 1.56, 0.64, 1);
 }
 .b2:hover{
     transform: scale(1.1);
     transition: transform 0.3s cubic-bezier(0.36, 1.56, 0.64, 1);
+    cursor: pointer;
 }
 .b2{
     background-color: white;
